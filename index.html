@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer-when-downgrade">
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -22,43 +22,44 @@
 <body>
 
     <!-- Header -->
-    <header class="header">
-        <nav class="header-nav">
-            <!-- Логотип, который ведет на главную страницу -->
-            <a class="header-logo" href="./index.html">Web<span class="header-logo-color">Studio</span></a>
-            <ul class="header-list">
-                <!-- Пункт меню, ведущий на страницу "Studio" -->
-                <li class="header-list-item">
-                    <a class="header-list-link" href="./index.html">Studio</a>
-                </li>
-                <!-- Пункт меню, ведущий на страницу "Portfolio" -->
-                <li class="header-list-item">
-                    <a class="header-list-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <!-- Пункт меню, ведущий на страницу "Contacts" -->
-                <li class="header-list-item">
-                    <a class="header-list-link" href="./contacts.html">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-        <address class="address">
-            <ul class="address-list">
-                <li class="address-list-item">
-                    <a class="address-list-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="address-list-item">
-                    <a class="address-list-item-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>
-            </ul>
-        </address>
-    </header>
-
+<header class="header">
+    <nav class="header-nav">
+        <!-- Логотип, який веде на головну сторінку -->
+        <a class="header-logo" href="./index.html">Web<span class="header-logo-color">Studio</span></a>
+        <ul class="header-list">
+            <!-- Пункт меню, що веде на сторінку "Studio" -->
+            <li class="header-list-item">
+                <a class="header-list-link" href="./index.html">Studio</a>
+            </li>
+            <!-- Пункт меню, що веде на сторінку "Portfolio" -->
+            <li class="header-list-item">
+                <a class="header-list-link" href="">Portfolio</a>
+            </li>
+            <!-- Пункт меню, що веде на сторінку "Contacts" -->
+            <li class="header-list-item">
+                <a class="header-list-link" href="">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+   
+    <address class="address">
+        <ul class="address-list">
+            <li class="address-list-item">
+                <a class="address-list-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="address-list-item">
+                <a class="address-list-item-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+        </ul>
+    </address>
+</header>
     <!-- Main Content -->
     <main>
+
         <!-- Section 1 -->
         <section class="hero">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
-            <a href="javascript:void(0)" class="button order-service">Order Service</a>
+            <a href="#" class="button">Order Service</a>
         </section>
 
         <!-- Section 2 -->
@@ -101,22 +102,26 @@
             <h2 class="team-title">Our Team</h2>
             <ul class="team-list">
                 <li class="team-list-item">
-                    <img src="./images/mark.jpg" alt="Mark Guerrero, Product Designer" class="team-img">
+                    <img src="./images/mark.jpg" alt="Mark Guerrero, Product Designer" width="264" height="260"
+                        class="team-img">
                     <h3 class="team-list-title">Mark Guerrero</h3>
                     <p class="team-list-par">Product Designer</p>
                 </li>
                 <li class="team-list-item">
-                    <img src="./images/tom.jpg" alt="Tom Ford, Frontend Developer" class="team-img">
+                    <img src="./images/tom.jpg" alt="Tom Ford, Frontend Developer" width="264" height="260"
+                        class="team-img">
                     <h3 class="team-list-title">Tom Ford</h3>
                     <p class="team-list-par">Frontend Developer</p>
                 </li>
                 <li class="team-list-item">
-                    <img src="./images/camila.jpg" alt="Camila Garcia, Marketing" class="team-img">
+                    <img src="./images/camila.jpg" alt="Camila Garcia, Marketing" width="264" height="260"
+                        class="team-img">
                     <h3 class="team-list-title">Camila Garcia</h3>
                     <p class="team-list-par">Marketing</p>
                 </li>
                 <li class="team-list-item">
-                    <img src="./images/daniel.jpg" alt="Daniel Wilson, UI Designer" class="team-img">
+                    <img src="./images/daniel.jpg" alt="Daniel Wilson, UI Designer" width="264" height="260"
+                        class="team-img">
                     <h3 class="team-list-title">Daniel Wilson</h3>
                     <p class="team-list-par">UI Designer</p>
                 </li>
@@ -128,12 +133,13 @@
             <h2 class="portfolio-title">Our Portfolio</h2>
             <ul class="portfolio-list">
                 <li class="portfolio-list-item">
-                    <img src="./images/banking.jpg" alt="Banking App" class="portfolio-img">
+                    <img src="./images/banking.jpg" alt="Banking App" width="360" height="300" class="portfolio-img">
                     <h3 class="portfolio-list-title">Banking App</h3>
                     <p class="portfolio-list-par">App</p>
                 </li>
                 <li class="portfolio-list-item">
-                    <img src="./images/cashless.jpg" alt="Cashless Payment Marketing" class="portfolio-img">
+                    <img src="./images/cashless.jpg" alt="Cashless Payment Marketing" width="360" height="300"
+                        class="portfolio-img">
                     <h3 class="portfolio-list-title">Cashless Payment</h3>
                     <p class="portfolio-list-par">Marketing</p>
                 </li>
