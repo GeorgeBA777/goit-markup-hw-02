@@ -46,11 +46,11 @@ a {
     color: #404bbf;
 }
 
-.adress {
-    font-style: normal
+.address {
+    font-style: normal;
 }
 
-.adress-list-item-link {
+.address-list-item-link {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -58,9 +58,10 @@ a {
     cursor: pointer;
 }
 
-.adress-list-item-link:hover,
-.adress-list-item-link:focus {
+.address-list-item-link:hover,
+.address-list-item-link:focus {
     color: #404bbf;
+}
 }
 
 /* section 1 */
