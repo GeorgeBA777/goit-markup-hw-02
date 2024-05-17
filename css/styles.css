@@ -87,11 +87,16 @@ a {
     background-color: #4d5ae5;
 }
 
-.button:hover,
-.button:focus {
-    background-color: #404bbf;
+.button-primary {
+    font-family: "Roboto", sans-serif;
 }
 
+.button:hover,
+.button:focus,
+.button-primary:hover,
+.button-primary:focus {
+    background-color: #404bbf;
+}
 /* Section 2 */
 
 .benefits-list-title {
