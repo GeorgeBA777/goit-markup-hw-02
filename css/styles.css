@@ -203,7 +203,7 @@ a {
     background-color: #2e2f42;
 }
 
-.footer-link {
+.logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -213,19 +213,14 @@ a {
     color: #4d5ae5;
 }
 
+.logo-footer-color {
+    color: #f4f4fd;
+}
+
+
 .footer-par {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
-}
-
-.footer-link-color {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #f4f4fd;
 }
