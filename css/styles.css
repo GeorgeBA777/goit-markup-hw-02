@@ -1,0 +1,70 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Стили для заголовка */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header a {
+    color: #fff;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header address ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Стили для основного содержимого */
+main {
+    padding: 20px;
+}
+
+main h1,
+main h2,
+main h3 {
+    color: #333;
+}
+
+main section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main section ul li {
+    margin-bottom: 20px;
+}
+
+/* Стили для подвала */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+}
