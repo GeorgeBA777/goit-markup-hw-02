@@ -63,30 +63,32 @@ a {
     color: #404bbf;
 }
 
-/* section 1 */
 .hero {
     background: #2e2f42;
 }
 
+/* Заголовок */
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
-    letter-spacing: 0.02em;
+    line-height: 1.07;
     text-align: center;
-    color: #fff;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
+/* Кнопка */
 .button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     background-color: #4d5ae5;
 }
 
+/* Зміна кольору кнопки при ховері та фокусі */
 .button:hover,
 .button:focus {
     background-color: #404bbf;
