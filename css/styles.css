@@ -62,7 +62,6 @@ a {
 .address-list-item-link:focus {
     color: #404bbf;
 }
-}
 
 /* section 1 */
 .hero {
@@ -78,14 +77,14 @@ a {
     color: #fff;
 }
 
-.button {
+.hero-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
-    background-color: #4d5ae5;
+    background-color: #4D5AE5
 }
 
 .button:hover,
