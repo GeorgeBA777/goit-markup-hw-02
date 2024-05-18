@@ -13,6 +13,7 @@ a {
 }
 
 /* Header */
+
 .header {
     background: #fff;
 }
@@ -64,19 +65,6 @@ a {
 }
 
 /* section 1 */
-.hero {
-    background: #2e2f42;
-}
-
-.hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 107%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-}
-
 .hero-btn {
     font-weight: 500;
     font-size: 16px;
@@ -84,17 +72,13 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
-    background-color: #4D5AE5
+    background-color: #4D5AE5;
 }
 
-
-.button:focus {
-background-color: #404BBF
+.hero-btn:focus,
+.hero-btn:hover {
+    background-color: #404BBF;
 }
-.button:hover {
-background-color: #404BBF
-}
-
 
 /* Section 2 */
 
